@@ -20,7 +20,8 @@
     "node-sass": "^4.11.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.11"
+    "webpack-dev-server": "^3.1.11",
+    "lodash": ">=4.17.13"
   },
   "dependencies": {
     "@material/button":"*",
@@ -55,7 +56,6 @@
     "@material/theme":"*",
     "@material/top-app-bar":"*",
     "@material/typography":"*",
-    "material-components-web":"*",
-    "//":"material-ui"
+    "material-components-web":"*"
   }
 }
