@@ -52,12 +52,14 @@ $mdc-theme-on-surface: #000000;
 Modifying these variables in your project's ```my-theme.scss``` file creates your custom Material theme.
 
 ## Creation
-write in the terminal (it is necessary to install yarn, https://yarnpkg.com/lang/en/docs/install/)
+1. From the root directory, run:
 ```
-yarn install
-yarn build
+npm install
+npm run-script build
 ```
-three files will be created in the dist folder: bundle.js, bundle.js and index.html
+> Note: This will update `bundle.js` and `bundle.css` in the `dist/` folder.
+2. Open `index.html` in your browser
+
 Congrats!, your theme is ready to be used.
 
 ## Interested in learning more?
